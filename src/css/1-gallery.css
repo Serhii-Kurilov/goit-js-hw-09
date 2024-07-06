@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.gallery {
+  list-style-type: none;
+  display: flex;
+  padding: 24px 156px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-item {
+  display: flex;
+  flex-shrink: 0;
+  width: 360px;
+  height: 200px;
+  width: calc((100% - 48px) / 3);
+}
+
+.gallery-link {
+  width: 360px;
+  height: 200px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
